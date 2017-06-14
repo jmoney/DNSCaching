@@ -6,7 +6,7 @@ import java.net.UnknownHostException;
 public class DNSCaching {
 
     public static void main(String[] args) {
-        java.security.Security.setProperty("networkaddress.cache.ttl", "5");
+//        java.security.Security.setProperty("networkaddress.cache.ttl", "5");
 
         final String host = args[0];
 
